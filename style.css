@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,200&display=swap');
+.sidebar{
+    background-color: rgb(245, 234, 234);
+    width:10vw;
+    height:100vh;
+    width: 434px;
+}
+.sidebar nav{
+    padding: 45px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+    font-weight: solid;
+}
+*{
+    margin:0px;
+    padding:0px;
+}
+.main{
+    background-color: white;
+    width:90vw;
+}
+.container{
+    display:inline-flex;
+}
+.InfoContainer{
+    background-color: white;
+    width:80vw;
+    height: 58vh;
+    margin: 160px auto;
+    justify-content:space-around;
+    display: flex;
+
+}
+.devinfo{
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.About{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 22px;
+}
+.hello{
+    font-size: 3em;
+    margin-top:22px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.Name{
+    padding: 10px 0;
+    font-size: 30px;
+    font-weight: bold;
+    font-size: 75px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.work{
+    font-size: 55px;
+    font-style: italic;
+    padding: 10px 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.About{
+    font-size: 40px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.buttons button{
+    cursor: pointer;
+    font-size: 30px;
+    padding: 20px;
+    border-radius:22px;
+    background-color: rgb(0, 183, 255);
+    margin: 0 3px;
+}
+.buttons{
+    padding:10px 0 ;
+    margin-top: 34px;
+}
+.profilepic img{
+    width:20vw;
+    height: 58vh;
+}
+.buttons button:hover{
+    background-color: antiquewhite;
+}
+.sidebar li a{
+    text-decoration: none;
+    color: rgb(29, 32, 36);
+    
+}
+.contactform{
+    margin-top: 50px;
+    margin-left: 200px;
+    background-color:aliceblue;
+    height: fit-content;
+    padding: 30px;
+}
+.mb-3{
+    font-size: 10px;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+.form-label{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+#check{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+.form-control{
+    border-radius: 34px;
+    font-size:15px;
+    padding:7px;
+    border-style:hidden;
+
+}
+#check label{
+    margin-left:1px;
+    font-size: 20px;
+}
+.form-check-input{
+    width: 40px;
+}
+.head1{
+    margin-top: 50px;
+    width: fit-content;
+    height: fit-content;
+}
+.form-text{
+    margin-top: 10px;
+    color: rgb(5, 73, 73);
+    font-size: 15px;
+}
+.button{
+margin-top: 10px;
+color: blue;
+font-size: 20px;
+padding: 7px;
+border-radius: 45px;
+width: 100px;
+background-color: antiquewhite;
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color: rgb(32, 123, 165);
+    color: black;
+}
