@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,200&display=swap');
 .sidebar{
-    background-color: rgb(245, 234, 234);
-    width:10vw;
+    background-color: rgb(199, 198, 198);
+    width:30vw;
     height:100vh;
-    width: 434px;
 }
 .sidebar nav{
     padding: 45px;
+    text-align: center;
 }
 .sidebar nav li{
     list-style: none;
@@ -89,17 +89,15 @@
 .sidebar li a{
     text-decoration: none;
     color: rgb(29, 32, 36);
-    
+    font-family: Arial, Helvetica, sans-serif;
 }
 .contactform{
-    margin-top: 50px;
-    margin-left: 200px;
-    background-color:aliceblue;
-    height: fit-content;
+    background-color:whitesmoke;
     padding: 30px;
+    width:100vw;
+
 }
 .mb-3{
-    font-size: 10px;
     margin-top: 30px;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
@@ -116,12 +114,13 @@
     margin-bottom: 10px;
 }
 .form-control{
-    border-radius: 34px;
+    border-radius: 10px;
     font-size:15px;
     padding:7px;
     border-style:hidden;
-
+    width:100%;
 }
+
 #check label{
     margin-left:1px;
     font-size: 20px;
@@ -130,7 +129,6 @@
     width: 40px;
 }
 .head1{
-    margin-top: 50px;
     width: fit-content;
     height: fit-content;
 }
@@ -153,4 +151,14 @@ background-color: antiquewhite;
     cursor: pointer;
     background-color: rgb(32, 123, 165);
     color: black;
+}
+.form-control:hover{
+font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #dfe1e5;
+  width: 100%;
+  margin-bottom: 10px;
+  border-sizzing:border-box;
+  border-color: rgb(245, 234, 234);
+
 }
